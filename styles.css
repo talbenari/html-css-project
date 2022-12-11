@@ -233,7 +233,7 @@ h1 {
 }
 
 #buyNow {
-    width: 100%;
+    width: 120%;
     height: 50px;
     border-radius: 5px;
     border: none;
@@ -252,7 +252,7 @@ h1 {
 }
 
 #colors2 {
-    width: 90%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -260,37 +260,37 @@ h1 {
 }
 
 #black {
-    width: 1vw;
-    height: 1vw;
+    width: 1.3vw;
+    height: 1.3vw;
     margin-left: 5px;
     margin-right: 5px;
 }
 
 
 #yellow {
-    width: 1vw;
-    height: 1vw;
+    width: 1.3vw;
+    height: 1.3vw;
     margin-left: 5px;
     margin-right: 5px;
 }
 
 #green {
-    width: 1vw;
-    height: 1vw;
+    width: 1.3vw;
+    height: 1.3vw;
     margin-left: 5px;
     margin-right: 5px;
 }
 
 #grey {
-    width: 1vw;
-    height: 1vw;
+    width: 1.3vw;
+    height: 1.3vw;
     margin-left: 5px;
     margin-right: 5px;
 }
 
 #navy {
-    width: 1vw;
-    height: 1vw;
+    width: 1.3vw;
+    height: 1.3vw;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -444,6 +444,33 @@ h4 {
     #productText {
         width: 45vw;
     }
+
+    #black {
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    
+    
+    #yellow {
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    
+    #green {
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    
+    #grey {
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    
+    #navy {
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+
 }
 
 #mid {
