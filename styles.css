@@ -435,7 +435,8 @@ h4 {
 
     #mid {
         flex-direction: column;
-        margin-top:0;
+        margin-top:10vh;
+        padding-left: 10vw;
         height: 60vh;
     }
 
@@ -473,11 +474,14 @@ h4 {
         height: 2.5vw;
     }
 
+    #homeBTN {
+        width: 25vw;
+    }
+
 }
 
 #mid {
     width: 100vw;
-    height: 75vh;
     display: flex;
     align-items: flex-start;
     justify-content:center;
@@ -487,7 +491,7 @@ h4 {
 
 #productImg {
     margin: 20px;
-    width: 40vw;
+    /* width: 40vw; */
     border: 1px solid rgb(167, 166, 166);
     border-radius: 5px;
     justify-content: center;
@@ -495,7 +499,7 @@ h4 {
 
 #productText {
     margin-left: 20px;
-    width: 35vw;
+    /* width: 35vw; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -531,4 +535,23 @@ h4 {
 .color:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+#homeBTN {
+    border-radius: 10px;
+    width: 15vw;
+    height: 6vw;
+    font-size: 3vh;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(160, 25, 13);
+    color: white;
+    margin-top: 10vh;
+    transition: ease-in-out 200ms;
+}
+
+#homeBTN:hover {
+    cursor: pointer;
+    background-color: blanchedalmond;
+    color: rgb(160, 25, 13);
 }
