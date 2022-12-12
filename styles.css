@@ -214,14 +214,22 @@ h1 {
     animation-delay: 0s;
     animation-direction: alternate-reverse;
     transition: ease;
-    position:absolute;
+    position: absolute;
     left: 15px;
 }
 
 @keyframes freeShipping {
-0% {width: 100%;}
-50% {width: 120%;}
-100% {width: 100%;}
+    0% {
+        width: 100%;
+    }
+
+    50% {
+        width: 120%;
+    }
+
+    100% {
+        width: 100%;
+    }
 }
 
 .productDiv:hover {
@@ -377,8 +385,10 @@ h4 {
     #singleBar {
         margin-top: 2vw;
         margin-bottom: 2vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
     }
-    
+
     .div1 {
         display: flex;
         flex-direction: column;
@@ -418,7 +428,7 @@ h4 {
     }
 
     #footer {
-        height:fit-content;
+        height: fit-content;
     }
 
     #lowerF {
@@ -433,6 +443,7 @@ h4 {
     #social {
         justify-content: center;
     }
+
     .icon {
         height: 35%;
     }
@@ -441,7 +452,7 @@ h4 {
 
     #mid {
         flex-direction: column;
-        margin-top:10vh;
+        margin-top: 10vh;
         padding-left: 10vw;
         height: 60vh;
     }
@@ -458,23 +469,23 @@ h4 {
         width: 2.5vw;
         height: 2.5vw;
     }
-    
-    
+
+
     #yellow {
         width: 2.5vw;
         height: 2.5vw;
     }
-    
+
     #green {
         width: 2.5vw;
         height: 2.5vw;
     }
-    
+
     #grey {
         width: 2.5vw;
         height: 2.5vw;
     }
-    
+
     #navy {
         width: 2.5vw;
         height: 2.5vw;
@@ -490,7 +501,7 @@ h4 {
     width: 100vw;
     display: flex;
     align-items: flex-start;
-    justify-content:center;
+    justify-content: center;
     padding-top: 15vh;
 
 }
