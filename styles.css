@@ -374,6 +374,11 @@ h4 {
 
 @media screen and (max-width:768px) {
 
+    #singleBar {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    
     .div1 {
         display: flex;
         flex-direction: column;
@@ -395,6 +400,7 @@ h4 {
 
     .coolBTN {
         width: 40vw;
+        font-size: 120%;
     }
 
     #largeP {
